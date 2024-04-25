@@ -1,0 +1,50 @@
+,name,COUNTY,YEAR,POPULATION,MURDER,RAPE,ROBBERY,AGG. ASSAULT,B & E,LARCENY THEFT,M/V THEFT,GRAND TOTAL,PERCENT CHANGE,VIOLENT CRIME TOTAL,VIOLENT CRIME PERCENT,VIOLENT CRIME PERCENT CHANGE,PROPERTY CRIME TOTALS,PROPERTY CRIME PERCENT,PROPERTY CRIME PERCENT CHANGE,corp_label
+155,Landover,Prince George's,2017,22852,6,28,56,106,166,230,264,856,0.0,196,22.9,0.0,660,77.1,0.0,Unincorporated
+156,Landover,Prince George's,2018,22041,2,34,62,106,128,256,210,798,-6.8,204,25.6,4.1,594,74.4,-10.0,Unincorporated
+157,Landover,Prince George's,2019,22553,0,34,72,110,50,218,178,662,-17.0,216,32.6,5.9,446,67.4,-24.9,Unincorporated
+158,Landover,Prince George's,2020,25998,6,12,44,102,56,150,240,610,-7.9,164,26.9,-24.1,446,73.1,0.0,Unincorporated
+159,Landover,Prince George's,2021,24508,14,16,80,114,46,120,224,614,0.7,224,36.5,36.6,390,63.5,-12.6,Unincorporated
+160,Landover,Prince George's,2022,24430,8,4,120,136,58,190,234,750,22.1,268,35.7,19.6,482,64.3,23.6,Unincorporated
+161,Landover,Prince George's,2023,25149,4,2,50,58,36,78,340,568,-24.3,114,20.1,-57.5,454,79.9,-5.8,Unincorporated
+162,Fairwood,Prince George's,2017,5762,0,0,0,2,8,36,14,60,0.0,2,3.3,0.0,58,96.7,0.0,Unincorporated
+163,Fairwood,Prince George's,2018,6084,0,0,4,0,6,28,6,44,-26.7,4,9.1,100.0,40,90.9,-31.0,Unincorporated
+164,Fairwood,Prince George's,2019,6261,0,2,0,0,2,24,12,40,-9.1,2,5.0,-50.0,38,95.0,-5.0,Unincorporated
+165,Fairwood,Prince George's,2020,6780,0,2,0,0,2,14,4,22,-45.0,2,9.1,0.0,20,90.9,-47.4,Unincorporated
+166,Fairwood,Prince George's,2021,7453,0,0,2,0,6,18,12,38,72.7,2,5.3,0.0,36,94.7,80.0,Unincorporated
+167,Fairwood,Prince George's,2022,7653,0,0,2,0,16,18,6,42,10.5,2,4.8,0.0,40,95.2,11.1,Unincorporated
+168,Fairwood,Prince George's,2023,8089,0,4,2,2,6,14,14,42,0.0,8,19.0,300.0,34,81.0,-15.0,Unincorporated
+169,Glenn Dale,Prince George's,2017,13606,0,4,10,12,36,64,12,138,0.0,26,18.8,0.0,112,81.2,0.0,Unincorporated
+170,Glenn Dale,Prince George's,2018,14191,0,2,6,16,20,72,28,144,4.3,24,16.7,-7.7,120,83.3,7.1,Unincorporated
+171,Glenn Dale,Prince George's,2019,13361,0,2,0,4,22,48,28,104,-27.8,6,5.8,-75.0,98,94.2,-18.3,Unincorporated
+172,Glenn Dale,Prince George's,2020,13722,2,0,6,6,42,40,28,124,19.2,14,11.3,133.3,110,88.7,12.2,Unincorporated
+173,Glenn Dale,Prince George's,2021,15426,2,2,6,16,12,42,24,104,-16.1,26,25.0,85.7,78,75.0,-29.1,Unincorporated
+174,Glenn Dale,Prince George's,2022,15244,2,2,24,26,24,58,28,164,57.7,54,32.9,107.7,110,67.1,41.0,Unincorporated
+175,Glenn Dale,Prince George's,2023,16005,0,6,10,10,12,20,70,128,-22.0,26,20.3,-51.9,102,79.7,-7.3,Unincorporated
+176,Lanham,Prince George's,2017,10511,0,12,21,54,102,99,123,411,0.0,87,21.2,0.0,324,78.8,0.0,Unincorporated
+177,Lanham,Prince George's,2018,10301,0,6,36,72,78,156,93,441,7.3,114,25.9,31.0,327,74.1,0.9,Unincorporated
+178,Lanham,Prince George's,2019,11120,6,6,24,66,69,156,99,426,-3.4,102,23.9,-10.5,324,76.1,-0.9,Unincorporated
+179,Lanham,Prince George's,2020,11054,9,0,33,48,54,117,93,354,-16.9,90,25.4,-11.8,264,74.6,-18.5,Unincorporated
+180,Lanham,Prince George's,2021,11460,0,3,21,48,36,84,96,288,-18.6,72,25.0,-20.0,216,75.0,-18.2,Unincorporated
+181,Lanham,Prince George's,2022,11662,3,9,36,72,72,144,159,495,71.9,120,24.2,66.7,375,75.8,73.6,Unincorporated
+182,Lanham,Prince George's,2023,11966,0,9,42,24,27,33,90,225,-54.5,75,33.3,-37.5,150,66.7,-60.0,Unincorporated
+183,Mitchellville,Prince George's,2017,10924,0,4,8,32,64,212,56,376,0.0,44,11.7,0.0,332,88.3,0.0,Unincorporated
+184,Mitchellville,Prince George's,2018,11215,0,0,4,28,48,232,64,376,0.0,32,8.5,-27.3,344,91.5,3.6,Unincorporated
+185,Mitchellville,Prince George's,2019,11547,0,12,4,24,44,252,76,412,9.6,40,9.7,25.0,372,90.3,8.1,Unincorporated
+186,Mitchellville,Prince George's,2020,11511,4,4,12,40,60,168,88,376,-8.7,60,16.0,50.0,316,84.0,-15.1,Unincorporated
+187,Mitchellville,Prince George's,2021,12160,4,4,12,32,16,92,72,232,-38.3,52,22.4,-13.3,180,77.6,-43.0,Unincorporated
+188,Mitchellville,Prince George's,2022,12103,0,0,8,40,48,148,60,304,31.0,48,15.8,-7.7,256,84.2,42.2,Unincorporated
+189,Mitchellville,Prince George's,2023,12399,0,4,28,20,8,96,68,224,-26.3,52,23.2,8.3,172,76.8,-32.8,Unincorporated
+190,Seabrook,Prince George's,2017,17808,0,12,16,26,40,81,37,212,0.0,54,25.5,0.0,158,74.5,0.0,Unincorporated
+191,Seabrook,Prince George's,2018,18345,0,3,8,27,50,62,40,190,-10.4,38,20.0,-29.6,152,80.0,-3.8,Unincorporated
+192,Seabrook,Prince George's,2019,18616,1,3,10,18,26,52,37,147,-22.6,32,21.8,-15.8,115,78.2,-24.3,Unincorporated
+193,Seabrook,Prince George's,2020,19020,0,3,19,12,17,56,23,130,-11.6,34,26.2,6.3,96,73.8,-16.5,Unincorporated
+194,Seabrook,Prince George's,2021,19558,2,3,13,24,16,32,35,125,-3.8,42,33.6,23.5,83,66.4,-13.5,Unincorporated
+195,Seabrook,Prince George's,2022,19369,1,3,36,33,20,54,57,204,63.2,73,35.8,73.8,131,64.2,57.8,Unincorporated
+196,Seabrook,Prince George's,2023,19600,2,2,7,12,14,31,72,140,-31.4,23,16.4,-68.5,117,83.6,-10.7,Unincorporated
+197,Woodlawn,Prince George's,2017,7515,0,5,9,9,29,23,22,97,0.0,23,23.7,0.0,74,76.3,0.0,Unincorporated
+198,Woodlawn,Prince George's,2018,7405,0,4,11,9,15,32,14,85,-12.4,24,28.2,4.3,61,71.8,-17.6,Unincorporated
+199,Woodlawn,Prince George's,2019,6692,0,1,7,9,17,24,20,78,-8.2,17,21.8,-29.2,61,78.2,0.0,Unincorporated
+200,Woodlawn,Prince George's,2020,6977,0,3,9,2,5,24,20,63,-19.2,14,22.2,-17.6,49,77.8,-19.7,Unincorporated
+201,Woodlawn,Prince George's,2021,7819,0,3,13,9,5,24,17,71,12.7,25,35.2,78.6,46,64.8,-6.1,Unincorporated
+202,Woodlawn,Prince George's,2022,7515,0,1,9,3,11,17,34,75,5.6,13,17.3,-48.0,62,82.7,34.8,Unincorporated
+203,Woodlawn,Prince George's,2023,7600,0,1,7,7,6,6,30,57,-24.0,15,26.3,15.4,42,73.7,-32.3,Unincorporated
