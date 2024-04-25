@@ -59,5 +59,6 @@ group by jurisdiction, year
 order by jurisdiction, year)
 
 -- From here, the addition of population data for each jurisdiction per year, 
--- and combining columns to have matching names to the state of Maryland table was done by hand in excel. 
+-- combining columns to have matching names to the state of Maryland table, 
+-- and the adding the unincorporated label was done by hand in excel. 
 
