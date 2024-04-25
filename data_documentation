@@ -1,0 +1,53 @@
+Data Wrangling
+This document will sever as a description of how data was gathered, cleaned, and analyzed. 
+
+
+Problem Statement
+Our goal was to identify criminal trends in municipalities along Annapolis Rd. This task required both geospatial and statistical analysis of  open-source data. Data from the US 2020 Census, the Maryland state movement, and Prince George’s County were used in this project. 
+
+Data Acquisition
+US 2020 Census data
+-	All roads in Maryland: https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-maryland-primary-and-secondary-roads-state-based-shapefile
+
+Maryland State Government Data
+-	All Municipalities(Incorporated & Unincorporated) in Maryland: https://data.imap.maryland.gov/datasets/008cbfc9d1d34644864b6b0110f318ab_1/explore
+-	Crime Statistics by municipalities(incorporated) per year - https://opendata.maryland.gov/Public-Safety/Violent-Crime-Property-Crime-by-Municipality-2000-/2p5g-xrcb/data_preview
+
+PG County data
+Crime reports throughout PG County - https://data.princegeorgescountymd.gov/Public-Safety/Crime-Incidents-July-2023-to-Present/xjru-idbe/data_preview
+
+
+
+
+Data Creation
+In order to create the appropriate dataset, a few tasks must be completed.
+
+1.	Identify which of these municipalities are Unincorporated vs Incorporated
+2.	Identify the municipalities that fall along Annapolis Rd
+3.	Pair crime statistics to each municipality
+
+In order to identify which municipalities were incorporated or unincorporated, we can look at the Census data. There is a column in this data called namelsad, which includes the string ‘CDP’ in the name of a municipality if it is unincorporated. For example, the municipality of Glen Dale had in the namelsad column ‘Glenn Dale CDP’. Here is a quote from the documentation on the Census website.  “The TIGER/Line Files include both incorporated places (legal entities) and census designated places or CDPs (statistical entities). ”We can use this column to pick out which municipality is incorporated or unincorporated. 
+
+In order to identify which of the municipalities fall along Annapolis Rd, we used SQL-based geospatial analysis with the PostgreSQL extension, POSTGIS. This extenstion allows us to write SQL queries like ‘give me all the municipalities intersect with Annapolis Rd’. To see the SQL code that performed this, see this code. This leaves us with the following 12 Municipalities.
+
+"Cheverly town" - Incorporated
+"Bladensburg town" - Incorporated
+"Seabrook CDP" - Unincorporated
+"New Carrollton city" - Incorporated
+"Landover CDP" - Unincorporated
+"Lanham CDP" - Unincorporated
+"Landover Hills town" - Incorporated
+"Glenn Dale CDP" - Unincorporated
+"Woodlawn CDP" - Unincorporated
+"Fairwood CDP" - Unincorporated
+"Bowie city" - Incorporated
+"Mitchellville CDP" - Unincorporated
+
+Pairing the crime statistics to each municipality was very simple for incorporated municipalities. We download the Crime Statistics by municipalities(incorporated) per year dataset from the State of Maryland website and filter out all municipalities that aren’t in our list of 12. To get the unincorporated municipality statistics took a little more effort. Since they don’t show up in our micely formatted state-of-Maryland list, we download the dataset of crime reports, and use POSTGIS in SQL to ask ‘Give me all of the crime reports that fall within the Annapolis Road municipalities’. This code is available here. Sadly these reports aren’t grouped by year, so we had to do that by hand and create a manual table of data containing statistics in a similar format to how it was reported in the official state-of-Maryland dataset.
+
+
+
+
+
+
+
